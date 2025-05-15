@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #101014;
+  color: #fff;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background: url('/src/assets/hero-image.jpg') center center / cover no-repeat fixed;
+  opacity: 1;
+  transition: opacity 0.6s, filter 0.6s;
+  pointer-events: none;
+}
+
+body.bg-blur::before {
+  filter: blur(12px);
+}
+
+body.bg-image-hidden::before {
+  opacity: 0;
+}
+
+/* El formulario de contacto debe tener fondo sólido y estar sobre el fondo global */
+#contact {
+  background: #18181b !important;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
