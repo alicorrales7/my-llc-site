@@ -35,3 +35,7 @@ body.bg-image-hidden::before {
   position: relative;
   z-index: 1;
 }
+
+html {
+  scroll-behavior: smooth;
+}
