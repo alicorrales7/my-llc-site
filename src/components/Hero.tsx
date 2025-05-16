@@ -17,9 +17,9 @@ const Hero = () => (
     {/* Overlay oscuro para legibilidad */}
     <div className="absolute inset-0 bg-black/70 -z-0" />
     {/* Contenido: logo a la izquierda, texto a la derecha */}
-    <div className="relative z-10 flex flex-col md:flex-row h-full w-full max-w-7xl mx-auto px-8 items-center justify-center gap-4 md:gap-2">
+    <div className="relative z-10 flex flex-col md:flex-row h-full w-full max-w-7xl mx-auto px-8 items-center justify-center gap-2 md:gap-2">
       {/* Logo a la izquierda */}
-      <div className="flex-1 flex items-center justify-center md:justify-end w-full md:w-auto mb-0">
+      <div className="flex-1 flex items-center justify-center md:justify-end w-full md:w-auto mb-2 md:mb-0">
         <img
           src={BE_LOGO_URL}
           alt="Building Eight Logo"
