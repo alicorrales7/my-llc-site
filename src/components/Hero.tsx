@@ -6,7 +6,7 @@ const BE_LOGO_URL =
   "https://res.cloudinary.com/ddoxiiuks/image/upload/v1747350375/BE_suyb5q.png";
 
 const Hero = () => (
-  <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
+  <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-0">
     {/* Imagen de fondo */}
     <img
       src={HERO_BG_URL}
