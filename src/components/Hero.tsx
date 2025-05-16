@@ -1,12 +1,15 @@
 import React from "react";
-import heroBg from "../assets/hero-image.jpg";
-import BELogo from "../assets/logo/BE.png";
+
+const HERO_BG_URL =
+  "https://res.cloudinary.com/ddoxiiuks/image/upload/v1747350348/hero-image_vucidq.jpg";
+const BE_LOGO_URL =
+  "https://res.cloudinary.com/ddoxiiuks/image/upload/v1747350375/BE_suyb5q.png";
 
 const Hero = () => (
   <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
     {/* Imagen de fondo */}
     <img
-      src={heroBg}
+      src={HERO_BG_URL}
       alt="Background"
       className="absolute inset-0 w-full h-full object-cover object-center opacity-100 -z-10"
       draggable={false}
@@ -18,7 +21,7 @@ const Hero = () => (
       {/* Logo a la izquierda */}
       <div className="flex-1 flex items-center justify-center md:justify-end w-full md:w-auto mb-0">
         <img
-          src={BELogo}
+          src={BE_LOGO_URL}
           alt="Building Eight Logo"
           className="w-full md:w-[44rem] max-w-full h-auto object-contain drop-shadow-xl rounded-2xl bg-black/30 p-2"
           style={{ maxHeight: "480px" }}

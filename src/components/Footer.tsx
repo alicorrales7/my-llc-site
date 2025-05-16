@@ -1,12 +1,14 @@
 import React from "react";
-import BELogo from "../assets/logo/BE.png";
+
+const BE_LOGO_URL =
+  "https://res.cloudinary.com/ddoxiiuks/image/upload/v1747350375/BE_suyb5q.png";
 
 const Footer = () => (
   <footer className="py-10 px-4 border-t border-[#23232a]/50 relative z-10 bg-transparent">
     <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
       <div className="flex items-center gap-2">
         <img
-          src={BELogo}
+          src={BE_LOGO_URL}
           alt="Building Eight Logo"
           className="w-8 h-8 object-contain"
           style={{ borderRadius: "6px" }}

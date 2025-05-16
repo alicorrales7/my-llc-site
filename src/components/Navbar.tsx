@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
-import BELogo from "../assets/logo/BE.png";
+
+const BE_LOGO_URL =
+  "https://res.cloudinary.com/ddoxiiuks/image/upload/v1747350375/BE_suyb5q.png";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -19,7 +21,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
         <a href="/" className="flex items-center gap-3 group">
           <img
-            src={BELogo}
+            src={BE_LOGO_URL}
             alt="Building Eight Logo"
             className="w-10 h-10 md:w-12 md:h-12 object-contain group-hover:scale-105 transition-transform"
             style={{ borderRadius: "8px" }}

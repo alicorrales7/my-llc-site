@@ -14,7 +14,7 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: 0;
-  background: url('/src/assets/hero-image.jpg') center center / cover no-repeat fixed;
+  background: url('https://res.cloudinary.com/ddoxiiuks/image/upload/v1747350348/hero-image_vucidq.jpg') center center / cover no-repeat fixed;
   opacity: 1;
   transition: opacity 0.6s, filter 0.6s;
   pointer-events: none;
